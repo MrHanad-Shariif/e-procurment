@@ -1,0 +1,71 @@
+name: tenderrank-unified
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: eprocure
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-eprocure-local}
+      POSTGRES_DB: tenderrank
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U eprocure -d tenderrank"]
+      interval: 3s
+      timeout: 5s
+      retries: 20
+  redis:
+    image: redis:7-alpine
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 3s
+      timeout: 5s
+      retries: 20
+  backend: &backend-runtime
+    build: ./backend
+    ports:
+      - "127.0.0.1:5002:5000"
+    environment:
+      DATABASE_URL: postgresql://eprocure:${POSTGRES_PASSWORD:-eprocure-local}@postgres:5432/tenderrank
+      SECRET_KEY: ${SECRET_KEY:?Set SECRET_KEY in .env}
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY:?Set JWT_SECRET_KEY in .env}
+      RATELIMIT_STORAGE_URI: redis://redis:6379/0
+      RATELIMIT_DEFAULT: 1000/minute
+      UPLOAD_FOLDER: /app/uploads
+      AI_PROVIDER: ${AI_PROVIDER:-disabled}
+      AI_MODEL: ${AI_MODEL:-}
+      AI_API_KEY: ${AI_API_KEY:-}
+      AI_BASE_URL: ${AI_BASE_URL:-}
+    volumes:
+      - ./backend:/app
+      - ./data/tenderrank:/import:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    command: sh -c "flask --app run:app db upgrade && flask --app run:app seed && python run.py"
+  worker:
+    <<: *backend-runtime
+    profiles: ["ai"]
+    ports: []
+    command: python worker.py
+  frontend:
+    build: ./frontend
+    ports:
+      - "127.0.0.1:5175:5173"
+    environment:
+      VITE_API_URL: /api
+      CHOKIDAR_USEPOLLING: "true"
+    volumes:
+      - ./frontend:/app
+      - frontend_modules:/app/node_modules
+    depends_on:
+      - backend
+volumes:
+  postgres_data:
+    name: tenderrank-unified_postgres_data
+  frontend_modules:
+    name: tenderrank-unified_frontend_modules

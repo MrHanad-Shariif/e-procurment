@@ -1,0 +1,139 @@
+{
+  "language": "Langue",
+  "navigation": "Navigation principale",
+  "theme": { "light": "Passer au mode clair", "dark": "Passer au mode sombre" },
+  "nav": {
+    "platform": "La plateforme",
+    "workflow": "Fonctionnement",
+    "teams": "Pour les équipes",
+    "signIn": "Se connecter",
+    "start": "Commencer",
+    "dashboard": "Ouvrir le tableau de bord"
+  },
+  "hero": {
+    "eyebrow": "Un espace achats connecté",
+    "title": "De meilleurs achats.",
+    "accent": "Pensés pour votre équipe.",
+    "description": "Réunissez demandes, approbations, fournisseurs et commandes. Donnez à chaque achat un parcours clair, de la demande à la livraison.",
+    "cta": "Créer votre espace",
+    "secondary": "Découvrir le processus",
+    "note": "Votre organisation. Vos collaborateurs. Un espace partagé."
+  },
+  "preview": {
+    "label": "Aperçu illustratif du produit",
+    "workspace": "Votre espace",
+    "overview": "Vue d’ensemble",
+    "title": "La clarté à chaque étape.",
+    "newRequest": "Nouvelle demande",
+    "requests": "Demandes",
+    "quotations": "Devis",
+    "orders": "Commandes",
+    "suppliers": "Fournisseurs",
+    "review": "Demander et approuver",
+    "compare": "Inviter et comparer",
+    "deliver": "Commander et suivre",
+    "workflow": "Un processus connecté",
+    "requestStep": "Demande d’achat",
+    "approvalStep": "Examen et approbation",
+    "orderStep": "Bon de commande",
+    "submitted": "Soumise",
+    "approved": "Approuvée",
+    "ready": "Prête à commander"
+  },
+  "platform": {
+    "eyebrow": "Un seul espace pour les achats",
+    "title": "Moins d’allers-retours. Plus de progrès.",
+    "description": "Gardez les détails et les décisions ensemble pour avancer avec votre équipe.",
+    "requests": {
+      "title": "Une demande bien définie",
+      "description": "Précisez les articles, estimations, priorités et dates. Suivez chaque demande jusqu’à son approbation."
+    },
+    "suppliers": {
+      "title": "Un meilleur suivi des fournisseurs",
+      "description": "Gérez votre annuaire, invitez des devis, comparez les offres et consignez vos décisions."
+    },
+    "orders": {
+      "title": "Vos commandes en vue",
+      "description": "Créez des bons de commande et suivez l’activité des achats depuis votre tableau de bord."
+    }
+  },
+  "workflow": {
+    "eyebrow": "De la demande à la livraison",
+    "title": "La prochaine étape, en toute clarté.",
+    "description": "Un processus simple qui relie votre équipe, vos fournisseurs et vos décisions d’achat.",
+    "request": {
+      "title": "Définissez vos besoins",
+      "description": "Créez une demande avec les articles, quantités, estimations et délais nécessaires."
+    },
+    "review": {
+      "title": "Examinez en confiance",
+      "description": "Suivez l’examen et l’approbation, avec des statuts et décisions visibles."
+    },
+    "source": {
+      "title": "Trouvez le bon fournisseur",
+      "description": "Invitez les fournisseurs, comparez les offres et attribuez votre appel d’offres."
+    },
+    "order": {
+      "title": "Concrétisez vos décisions",
+      "description": "Suivez vos commandes jusqu’à l’approbation, l’accusé de réception et la clôture."
+    }
+  },
+  "teams": {
+    "roles": {
+      "title": "Rôles et droits clairs",
+      "description": "Donnez aux administrateurs, acheteurs et observateurs les accès adaptés."
+    },
+    "languages": {
+      "title": "Anglais, arabe et français",
+      "description": "Travaillez dans votre langue avec une interface adaptée à l’arabe de droite à gauche."
+    },
+    "visibility": {
+      "title": "Une vision partagée",
+      "description": "Retrouvez demandes, approbations, commandes et fournisseurs dans le même espace."
+    }
+  },
+  "cta": {
+    "title": "Faites place à de meilleurs achats.",
+    "description": "Créez une organisation, réunissez votre équipe et simplifiez votre prochain achat."
+  },
+  "footer": "E-Procurement. Conçu pour le travail en équipe.",
+  "auth": {
+    "eyebrow": "Vos achats, connectés",
+    "panelTitle": "Une journée plus claire commence ici.",
+    "signupPanelTitle": "Mieux travailler, ensemble.",
+    "panelDescription": "Réunissez vos demandes, décisions et fournisseurs dans un espace organisé.",
+    "step1": "Précisez les détails",
+    "step2": "Prenez la décision",
+    "step3": "Avancez",
+    "signInEyebrow": "Votre espace vous attend",
+    "loginTitle": "Heureux de vous revoir.",
+    "loginDescription": "Connectez-vous pour poursuivre vos achats.",
+    "workspaceAddress": "Identifiant de l’espace",
+    "workspaceHint": "L’identifiant choisi lors de la création de votre organisation. Utilisez « default » pour la démonstration.",
+    "email": "E-mail professionnel",
+    "emailPlaceholder": "vous@entreprise.com",
+    "password": "Mot de passe",
+    "showPassword": "Afficher le mot de passe",
+    "hidePassword": "Masquer le mot de passe",
+    "signIn": "Se connecter",
+    "signingIn": "Connexion…",
+    "loginError": "Vérifiez votre identifiant d’espace, votre e-mail et votre mot de passe.",
+    "noAccount": "Vous découvrez E-Procurement ?",
+    "createWorkspace": "Créer un espace",
+    "loginNote": "Vous rejoignez une organisation ? Demandez à son administrateur de créer votre compte et de vous communiquer son identifiant.",
+    "signupEyebrow": "Un nouveau départ pour votre équipe",
+    "signupTitle": "Créez votre espace.",
+    "signupDescription": "Configurez votre organisation et votre compte administrateur.",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "organizationName": "Nom de l’organisation",
+    "addressHint": "Choisissez 3 à 48 lettres minuscules, chiffres ou tirets. Cet identifiant servira à la connexion.",
+    "passwordHint": "Utilisez au moins 10 caractères.",
+    "signupNote": "Vous administrerez une nouvelle organisation indépendante, avec son propre espace et ses paramètres.",
+    "haveAccount": "Vous avez déjà un espace ?",
+    "creating": "Création de votre espace…",
+    "addressTaken": "Cet identifiant est déjà utilisé. Choisissez-en un autre.",
+    "tooManyAttempts": "Trop de tentatives. Patientez avant de réessayer.",
+    "signupError": "Impossible de créer votre espace. Vérifiez les informations et réessayez."
+  }
+}

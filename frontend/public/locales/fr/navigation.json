@@ -1,0 +1,25 @@
+{
+  "overview": "Vue d’ensemble",
+  "workspace": "Espace achats",
+  "workspaceMenu": "Espace de travail",
+  "primaryNavigation": "Navigation principale",
+  "breadcrumb": "Emplacement actuel",
+  "publicPortal": "Portail public",
+  "roles": { "administrator": "Administrateur", "officer": "Responsable des achats", "supplier": "Fournisseur", "viewer": "Lecteur" },
+  "sections": { "sourcing": "Sourcing", "procurement": "Achats", "finance": "Finance", "administration": "Administration", "supplier": "Portail fournisseur" },
+  "modules": {
+    "suppliers": "Fournisseurs", "quotations": "Devis", "tenders": "Appels d’offres", "evaluation": "Évaluation",
+    "requisitions": "Demandes d’achat", "orders": "Bons de commande", "receiving": "Réception", "invoices": "Factures d’achat",
+    "budgets": "Budgets", "contracts": "Contrats", "access": "Utilisateurs et accès", "workspace": "Organisation",
+    "communications": "Communications", "opportunities": "Opportunités", "company": "Entreprise"
+  },
+  "pages": {
+    "supplierDirectory": "Annuaire des fournisseurs", "newSupplier": "Ajouter un fournisseur", "rfqs": "Demandes de devis", "newRfq": "Créer une demande de devis",
+    "tenderRegister": "Registre des appels d’offres", "newTender": "Créer un appel d’offres", "approvalQueue": "Approbations", "rankings": "Classement des fournisseurs",
+    "requests": "Toutes les demandes", "newRequest": "Créer une demande", "orders": "Tous les bons de commande", "newOrder": "Créer un bon de commande",
+    "receipts": "Tous les bons de réception", "newReceipt": "Enregistrer une réception", "invoices": "Toutes les factures d’achat", "newInvoice": "Créer une facture d’achat",
+    "budgets": "Vue des budgets", "newBudget": "Créer un budget", "contracts": "Registre des contrats", "newContract": "Créer un contrat",
+    "users": "Utilisateurs", "roles": "Rôles et permissions", "settings": "Paramètres de l’espace", "email": "Paramètres de messagerie",
+    "messages": "Messages", "inquiries": "Demandes de contact", "openTenders": "Appels d’offres ouverts", "companyProfile": "Profil de l’entreprise"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "overview": "نظرة عامة",
+  "workspace": "مساحة المشتريات",
+  "workspaceMenu": "مساحة العمل",
+  "primaryNavigation": "التنقل الرئيسي",
+  "breadcrumb": "الموقع الحالي",
+  "publicPortal": "البوابة العامة",
+  "roles": { "administrator": "مدير النظام", "officer": "مسؤول المشتريات", "supplier": "مورد", "viewer": "مستخدم للعرض" },
+  "sections": { "sourcing": "التوريد", "procurement": "المشتريات", "finance": "المالية", "administration": "الإدارة", "supplier": "بوابة المورد" },
+  "modules": {
+    "suppliers": "الموردون", "quotations": "عروض الأسعار", "tenders": "المناقصات", "evaluation": "التقييم",
+    "requisitions": "طلبات الشراء", "orders": "أوامر الشراء", "receiving": "الاستلام", "invoices": "فواتير الشراء",
+    "budgets": "الميزانيات", "contracts": "العقود", "access": "المستخدمون والصلاحيات", "workspace": "المؤسسة",
+    "communications": "المراسلات", "opportunities": "الفرص", "company": "الشركة"
+  },
+  "pages": {
+    "supplierDirectory": "دليل الموردين", "newSupplier": "إضافة مورد", "rfqs": "جميع طلبات عروض الأسعار", "newRfq": "إنشاء طلب عرض أسعار",
+    "tenderRegister": "سجل المناقصات", "newTender": "إنشاء مناقصة", "approvalQueue": "طلبات الموافقة", "rankings": "ترتيب الموردين",
+    "requests": "جميع طلبات الشراء", "newRequest": "إنشاء طلب شراء", "orders": "جميع أوامر الشراء", "newOrder": "إنشاء أمر شراء",
+    "receipts": "جميع إيصالات الاستلام", "newReceipt": "تسجيل استلام بضائع", "invoices": "جميع فواتير الشراء", "newInvoice": "إنشاء فاتورة شراء",
+    "budgets": "نظرة عامة على الميزانيات", "newBudget": "إنشاء ميزانية", "contracts": "سجل العقود", "newContract": "إنشاء عقد",
+    "users": "المستخدمون", "roles": "الأدوار والصلاحيات", "settings": "إعدادات مساحة العمل", "email": "إعدادات البريد الإلكتروني",
+    "messages": "الرسائل", "inquiries": "الاستفسارات", "openTenders": "المناقصات المفتوحة", "companyProfile": "ملف الشركة"
+  }
+}

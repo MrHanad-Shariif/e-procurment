@@ -1,0 +1,25 @@
+{
+  "overview": "Overview",
+  "workspace": "Procurement workspace",
+  "workspaceMenu": "Workspace",
+  "primaryNavigation": "Main navigation",
+  "breadcrumb": "Current location",
+  "publicPortal": "Public portal",
+  "roles": { "administrator": "Administrator", "officer": "Procurement officer", "supplier": "Supplier", "viewer": "Viewer" },
+  "sections": { "sourcing": "Sourcing", "procurement": "Procurement", "finance": "Finance", "administration": "Administration", "supplier": "Supplier portal" },
+  "modules": {
+    "suppliers": "Suppliers", "quotations": "Quotations", "tenders": "Tenders", "evaluation": "Evaluation",
+    "requisitions": "Requisitions", "orders": "Purchase orders", "receiving": "Receiving", "invoices": "Purchase invoices",
+    "budgets": "Budgets", "contracts": "Contracts", "access": "People & access", "workspace": "Organization",
+    "communications": "Communications", "opportunities": "Opportunities", "company": "Company"
+  },
+  "pages": {
+    "supplierDirectory": "Supplier directory", "newSupplier": "Add supplier", "rfqs": "All RFQs", "newRfq": "Create RFQ",
+    "tenderRegister": "Tender register", "newTender": "Create tender", "approvalQueue": "Approval queue", "rankings": "Supplier rankings",
+    "requests": "All requisitions", "newRequest": "Create requisition", "orders": "All purchase orders", "newOrder": "Create purchase order",
+    "receipts": "All goods receipts", "newReceipt": "Record goods receipt", "invoices": "All purchase invoices", "newInvoice": "Create purchase invoice",
+    "budgets": "Budget overview", "newBudget": "Create budget", "contracts": "Contract register", "newContract": "Create contract",
+    "users": "Users", "roles": "Roles & permissions", "settings": "Workspace settings", "email": "Email settings",
+    "messages": "Messages", "inquiries": "Inquiries", "openTenders": "Open tenders", "companyProfile": "Company profile"
+  }
+}

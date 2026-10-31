@@ -1,0 +1,139 @@
+{
+  "language": "Language",
+  "navigation": "Main navigation",
+  "theme": { "light": "Switch to light mode", "dark": "Switch to dark mode" },
+  "nav": {
+    "platform": "The platform",
+    "workflow": "How it works",
+    "teams": "Built for teams",
+    "signIn": "Sign in",
+    "start": "Get started",
+    "dashboard": "Open dashboard"
+  },
+  "hero": {
+    "eyebrow": "A connected procurement workspace",
+    "title": "Better procurement.",
+    "accent": "Built around your team.",
+    "description": "Bring requests, approvals, suppliers, and purchase orders together. Give every purchase a clear path from the first request to the final delivery.",
+    "cta": "Create your workspace",
+    "secondary": "Explore the workflow",
+    "note": "Your own organization. Your people. One shared workspace."
+  },
+  "preview": {
+    "label": "Illustrative product preview",
+    "workspace": "Your workspace",
+    "overview": "Workspace overview",
+    "title": "Clarity at every step.",
+    "newRequest": "New requisition",
+    "requests": "Requisitions",
+    "quotations": "Quotations",
+    "orders": "Purchase orders",
+    "suppliers": "Suppliers",
+    "review": "Request & approve",
+    "compare": "Invite & compare",
+    "deliver": "Order & track",
+    "workflow": "A connected workflow",
+    "requestStep": "Purchase requisition",
+    "approvalStep": "Review & approval",
+    "orderStep": "Purchase order",
+    "submitted": "Submitted",
+    "approved": "Approved",
+    "ready": "Ready to order"
+  },
+  "platform": {
+    "eyebrow": "One place for procurement",
+    "title": "Less back-and-forth. More moving forward.",
+    "description": "Keep the details and decisions together, so your team can focus on getting the right things done.",
+    "requests": {
+      "title": "Start with a clear request",
+      "description": "Capture line items, estimates, priorities, and required dates. Follow each requisition through review and approval."
+    },
+    "suppliers": {
+      "title": "Build better supplier workflows",
+      "description": "Maintain your supplier directory, invite quotations, compare bids, and record your award decision."
+    },
+    "orders": {
+      "title": "Keep orders in view",
+      "description": "Create purchase orders, track their progress, and see your procurement activity from one dashboard."
+    }
+  },
+  "workflow": {
+    "eyebrow": "From request to delivery",
+    "title": "A clear next step. Every time.",
+    "description": "A straightforward process that connects your team, your suppliers, and your purchasing decisions.",
+    "request": {
+      "title": "Define what you need",
+      "description": "Create a requisition with the items, quantities, budget estimates, and timing your team needs."
+    },
+    "review": {
+      "title": "Review with confidence",
+      "description": "Move requests through review and approval, with statuses and decisions visible along the way."
+    },
+    "source": {
+      "title": "Find the right supplier",
+      "description": "Invite suppliers to quote, compare their bids, and award your request for quotation."
+    },
+    "order": {
+      "title": "Turn decisions into orders",
+      "description": "Create a purchase order and track it through approval, supplier acknowledgement, and completion."
+    }
+  },
+  "teams": {
+    "roles": {
+      "title": "Clear roles & permissions",
+      "description": "Give administrators, procurement officers, and viewers the access they need in your organization."
+    },
+    "languages": {
+      "title": "English, Arabic & French",
+      "description": "Work in your preferred language, with a layout that supports right-to-left Arabic."
+    },
+    "visibility": {
+      "title": "A shared view of progress",
+      "description": "See requisitions, approvals, order activity, and supplier status in one connected workspace."
+    }
+  },
+  "cta": {
+    "title": "Make room for better procurement.",
+    "description": "Create an organization, bring your people together, and give your next purchase a clear path."
+  },
+  "footer": "E-Procurement. Built for the way teams work.",
+  "auth": {
+    "eyebrow": "Your procurement, connected",
+    "panelTitle": "A clearer day starts here.",
+    "signupPanelTitle": "A better way to work, together.",
+    "panelDescription": "Bring your requests, decisions, and supplier relationships into one organized workspace.",
+    "step1": "Capture the details",
+    "step2": "Make the decision",
+    "step3": "Move things forward",
+    "signInEyebrow": "Your workspace awaits",
+    "loginTitle": "Welcome back.",
+    "loginDescription": "Sign in to keep your procurement moving.",
+    "workspaceAddress": "Workspace address",
+    "workspaceHint": "The workspace ID you chose when creating your organization. Use “default” for the demo workspace.",
+    "email": "Work email",
+    "emailPlaceholder": "you@company.com",
+    "password": "Password",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "signIn": "Sign in",
+    "signingIn": "Signing in…",
+    "loginError": "We couldn't sign you in. Check your workspace address, email, and password.",
+    "noAccount": "New to E-Procurement?",
+    "createWorkspace": "Create a workspace",
+    "loginNote": "Joining an existing organization? Ask your administrator to create your account and share its workspace address.",
+    "signupEyebrow": "A fresh start for your team",
+    "signupTitle": "Create your workspace.",
+    "signupDescription": "Set up your organization and your administrator account.",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "organizationName": "Organization name",
+    "addressHint": "Choose a unique ID: 3–48 lowercase letters, numbers, or hyphens. You'll use it to sign in.",
+    "passwordHint": "Use at least 10 characters.",
+    "signupNote": "You'll become the administrator of a new, separate organization with its own workspace and settings.",
+    "haveAccount": "Already have a workspace?",
+    "creating": "Creating your workspace…",
+    "addressTaken": "This workspace address is already taken. Please choose another.",
+    "tooManyAttempts": "Too many attempts. Please wait a moment and try again.",
+    "signupError": "We couldn't create your workspace. Check your details and try again."
+  }
+}
